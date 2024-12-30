@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Honda_rtr</class>
+ <widget class="QDialog" name="Honda_rtr">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>768</width>
+    <height>564</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="btCANInterface">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>60</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CAN INTERFACE:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCOM_4">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>320</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: black;</string>
+   </property>
+   <property name="text">
+    <string>RECEIVED CAN FRAME:</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidgetResponse">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>350</y>
+     <width>561</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>CAN ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DLC</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DATA</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTableWidget" name="tableWidgetRequest">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>170</y>
+     <width>561</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>DIRECTION</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>CAN ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DLC</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DATA</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QComboBox" name="comboBoxRequest">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>100</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Select command</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vehicle Speed</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Engine Speed </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Diagnostic</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Engine load</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Engine coolant temperature</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Fuel pressure</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Intake air temperature</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>air flow rate</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Throttle position</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Run time since engine start</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="BtnSetRequest">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>60</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SET REQUEST</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCOM_3">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>140</y>
+     <width>211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: black;</string>
+   </property>
+   <property name="text">
+    <string>TRANSMITTED CAN FRAME:</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>60</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>Set Bitrate</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="Cmbbitrate">
+      <item>
+       <property name="text">
+        <string>Select Bps</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>125000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>250000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>500000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1000000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2000000</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="sidebar" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>111</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #38B2AC;
+</string>
+   </property>
+   <widget class="QPushButton" name="buttonHome">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>420</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #38A169; color: white;
+border-radius: 4px;</string>
+    </property>
+    <property name="text">
+     <string>HOME</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonSave">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>240</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #38A169; color: white;
+border-radius: 4px;</string>
+    </property>
+    <property name="text">
+     <string>SAVE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelMazda">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>91</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/Car_logos/HONDA LOGO.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonOpen">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #38A169; color: white;
+border-radius: 4px;</string>
+    </property>
+    <property name="text">
+     <string>OPEN</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonReturn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>330</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #38A169; color: white;
+border-radius: 4px;</string>
+    </property>
+    <property name="text">
+     <string>BACK</string>
+    </property>
+   </widget>
+   <zorder>buttonHome</zorder>
+   <zorder>buttonSave</zorder>
+   <zorder>labelMazda</zorder>
+   <zorder>buttonReturn</zorder>
+   <zorder>buttonOpen</zorder>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>70</y>
+     <width>131</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>START/STOP </string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cmbCANInterface">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>100</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

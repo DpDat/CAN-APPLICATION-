@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Hyundai_decode</class>
+ <widget class="QDialog" name="Hyundai_decode">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>761</width>
+    <height>468</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="cmbPorts">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>100</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="sidebar_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>111</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #38B2AC;
+</string>
+   </property>
+   <widget class="QPushButton" name="buttonHome_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #38A169; color: white;
+border-radius: 4px;</string>
+    </property>
+    <property name="text">
+     <string>HOME</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonReturn_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>310</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #38A169; color: white;
+border-radius: 4px;</string>
+    </property>
+    <property name="text">
+     <string>BACK</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonSaveStart">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #38A169; color: white;
+border-radius: 4px;</string>
+    </property>
+    <property name="text">
+     <string>START SAVE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelMazda_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>91</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/Car_logos/hyundai logo.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonOpen_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #38A169; color: white;
+border-radius: 4px;</string>
+    </property>
+    <property name="text">
+     <string>OPEN</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonSaveStop">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #38A169; color: white;
+border-radius: 4px;</string>
+    </property>
+    <property name="text">
+     <string>STOP SAVE</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QTableWidget" name="tableWidgetDecode">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>140</y>
+     <width>601</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <column>
+    <property name="text">
+     <string>CAN ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>SPECIFICATION</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>UNIT </string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DATA</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>VALUE </string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="btnPortsInfo">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>60</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PORTS:</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>50</y>
+     <width>121</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="buttonVehicleSpeed">
+      <property name="styleSheet">
+       <string notr="true"> color: white;
+background-color: rgb(47, 200, 182);
+border-radius: 4px;</string>
+      </property>
+      <property name="text">
+       <string>Vehicle speed </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="buttonEngineSpeed">
+      <property name="styleSheet">
+       <string notr="true"> color: white;
+background-color: rgb(47, 200, 182);
+border-radius: 4px;</string>
+      </property>
+      <property name="text">
+       <string>Engine speed </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="buttonWspeedRL">
+      <property name="styleSheet">
+       <string notr="true"> color: white;
+background-color: rgb(47, 200, 182);
+border-radius: 4px;</string>
+      </property>
+      <property name="text">
+       <string>Wheel speed(RL)</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>45</y>
+     <width>121</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QPushButton" name="buttonWspeedFL">
+      <property name="styleSheet">
+       <string notr="true"> color: white;
+background-color: rgb(47, 200, 182);
+border-radius: 4px;</string>
+      </property>
+      <property name="text">
+       <string>Wheel speed(FL)</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="buttonWspeedFR">
+      <property name="styleSheet">
+       <string notr="true"> color: white;
+background-color: rgb(47, 200, 182);
+border-radius: 4px;</string>
+      </property>
+      <property name="text">
+       <string>wheel speed(FR)</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="buttonWspeedRR">
+      <property name="styleSheet">
+       <string notr="true"> color: white;
+background-color: rgb(47, 200, 182);
+border-radius: 4px;</string>
+      </property>
+      <property name="text">
+       <string>Wheel speed(RR)</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>60</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pulseview</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
