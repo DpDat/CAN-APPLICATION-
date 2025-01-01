@@ -33,6 +33,37 @@ qtcreator --version
 ```bash
 qtcreator
 ```
+For S32 Design Studio: 
+
+Step 1: Download the Installer
+1. Visit the official NXP S32 Design Studio website and create an account if you don’t already have one.
+2. Navigate to the downloads section and download the Linux installer for S32 Design Studio.
+Step 2: Move the Installer to Your Debian Machine
+If you downloaded the installer on another machine, transfer it to your Debian system using a USB drive or a file transfer tool like scp.
+
+Step 3: Make the Installer Executable
+Open a terminal and navigate to the directory containing the downloaded installer. Run the following command to make the installer executable:
+```bash
+chmod +x <installer-file-name>.sh
+```
+Replace <installer-file-name> with the actual name of the downloaded file.
+Step 4: Run the Installer
+Run the installer script using the following command:
+```bash
+sudo ./<installer-file-name>.sh
+```
+Follow the on-screen instructions to complete the installation.
+Step 5: Install Required Dependencies
+Install any missing libraries that S32 Design Studio may require. Common dependencies include libgtk2.0 and libusb-1.0. Run:
+```bash
+sudo apt install libgtk2.0-0 libusb-1.0-0 -y
+```
+Step 6: Launch S32 Design Studio
+To start the S32 Design Studio IDE, navigate to the installation directory (e.g., /opt/nxp/S32DS.3.4) and run:
+```bash
+./s32ds
+```
+
 Similarly, all the hardware tools for the project are listed in the 'Hardware' folder, and the connections for the devices are illustrated in the 'Wiring Diagram' file.
 # SCREENSHOT 
 ![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/fa43b92d436ccf41f4cee493f339a01802a67ee6/QT_based%20Application/MainScreen.png)
