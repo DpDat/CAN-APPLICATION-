@@ -2,6 +2,7 @@
 This application is developed using Object-Oriented Programming in C++, and it is a Qt-based product that enables users to interact with the CAN (Controller Area Network) data in vehicles.
 # Necessary software tool to run the code for project
 All the necessary software tools are listed in the 'Software Tools' folder. Below are images illustrating how to use the software in the project: 
+![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/9a851d4b6a66133c7d4ebc05d341faea59e56183/Software%20Tools/folders%20in%20QT%20creator%20tool%20.jpg)
 
 # SCREENSHOT 
 ![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/fa43b92d436ccf41f4cee493f339a01802a67ee6/QT_based%20Application/MainScreen.png)
