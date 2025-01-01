@@ -3,7 +3,16 @@ This application is developed using Object-Oriented Programming in C++, and it i
 # Necessary software tool to run the code for project
 All the necessary software tools are listed in the 'Software Tools' folder. Below are images illustrating how to use the software in the project: 
 ![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/9a851d4b6a66133c7d4ebc05d341faea59e56183/Software%20Tools/folders%20in%20QT%20creator%20tool%20.jpg)
-![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/c326b7bb7fe173f164b3db9c99179840d7297c3d/Software%20Tools/S32K144%20Configurration.png)
+![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/c326b7bb7fe173f164b3db9c99179840d7297c3d/Software%20Tools/S32K144%20Configurration.png)\
+# How to install software tools on the Debian operating system for Raspberry Pi 4 Model B
+For QT creator: 
+Step 1: Update the System
+1. Open a terminal on your Raspberry Pi.
+2. Run the following commands to update the package list and upgrade the system:
+```bash
+sudo apt update
+sudo apt upgrade -y
+```
 Similarly, all the hardware tools for the project are listed in the 'Hardware' folder, and the connections for the devices are illustrated in the 'Wiring Diagram' file.
 # SCREENSHOT 
 ![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/fa43b92d436ccf41f4cee493f339a01802a67ee6/QT_based%20Application/MainScreen.png)
