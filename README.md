@@ -5,13 +5,33 @@ All the necessary software tools are listed in the 'Software Tools' folder. Belo
 ![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/9a851d4b6a66133c7d4ebc05d341faea59e56183/Software%20Tools/folders%20in%20QT%20creator%20tool%20.jpg)
 ![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/c326b7bb7fe173f164b3db9c99179840d7297c3d/Software%20Tools/S32K144%20Configurration.png)\
 # How to install software tools on the Debian operating system for Raspberry Pi 4 Model B
-For QT creator: 
+For QT creator:
+
 Step 1: Update the System
 1. Open a terminal on your Raspberry Pi.
 2. Run the following commands to update the package list and upgrade the system:
 ```bash
 sudo apt update
 sudo apt upgrade -y
+```
+Step 2: Install Required Dependencies
+Ensure you have all necessary dependencies for Qt Creator:
+```bash
+sudo apt install build-essential libgl1-mesa-dev -y
+```
+Step 3: Install Qt Creator Using APT
+Install Qt Creator directly from the default Debian repositories:
+```bash
+sudo apt install qtcreator -y
+```
+Step 4: Verify Installation
+1. After installation, verify by checking the version:
+```bash
+qtcreator --version
+```
+2. Launch Qt Creator by typing:
+```bash
+qtcreator
 ```
 Similarly, all the hardware tools for the project are listed in the 'Hardware' folder, and the connections for the devices are illustrated in the 'Wiring Diagram' file.
 # SCREENSHOT 
