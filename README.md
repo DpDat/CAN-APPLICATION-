@@ -19,7 +19,7 @@ For QT creator tool:
 
 ![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/9a851d4b6a66133c7d4ebc05d341faea59e56183/Software%20Tools/folders%20in%20QT%20creator%20tool%20.jpg)
 
-For S32 Design Studio: 
+For S32 Design Studio tool: 
 
 ![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/c326b7bb7fe173f164b3db9c99179840d7297c3d/Software%20Tools/S32K144%20Configurration.png)
 
