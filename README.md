@@ -93,7 +93,15 @@ pulseview
 
 # Similarly, all the hardware tools for the project are listed in the 'Hardware' folder, and the connections for the devices are illustrated in the 'Wiring Diagram' file.
 # SCREENSHOT 
+Main Screen: 
 ![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/fa43b92d436ccf41f4cee493f339a01802a67ee6/QT_based%20Application/MainScreen.png)
+Menu Interface:
 ![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/b23ecbcfa824c2f941e86f6554635f908b8a6ced/QT_based%20Application/MenuScreen.png)
+Implementing Monitor (Retrieve CAN đata) function with Mazda CX5 Vehicle: 
+
+Implementing Decode (convert some raw data into physical values) function with Mazda CX5 Vehicle: 
+
+Implementing OBD2 Request (Sending single frames base on standard OBD2 protocol to request specific information) function with Mazda CX5 Vehicle: 
+
 # The demo video with the application 
 Please download file to watch [Demo Video](https://github.com/DpDat/CAN-APPLICATION-/blob/55fc327ce3950081a9155835f016b4064b5ead0b/DemoVideo.mp4)
