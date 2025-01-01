@@ -63,8 +63,28 @@ To start the S32 Design Studio IDE, navigate to the installation directory (e.g.
 ```bash
 ./s32ds
 ```
+For PulseView Sigrok:
+Step 1: Update the System
+1. Open a terminal on your Raspberry Pi.
+2. Run the following commands to update the package list and upgrade the system:
+```bash
+sudo apt update
+sudo apt upgrade -y
+```
+Step 2: Install PulseView Using APT
+Once the apt database is updated, you can install PulseView using apt-get by executing the following command:
+```bash
+sudo apt-get -y install pulseview
+```
+Step 3: Connect Your Logic Analyzer
+1. Plug in your logic analyzer.
+2. Open PulseView:
+```bash
+pulseview
+```
+3. Select your device and start capturing signals.
 
-Similarly, all the hardware tools for the project are listed in the 'Hardware' folder, and the connections for the devices are illustrated in the 'Wiring Diagram' file.
+# Similarly, all the hardware tools for the project are listed in the 'Hardware' folder, and the connections for the devices are illustrated in the 'Wiring Diagram' file.
 # SCREENSHOT 
 ![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/fa43b92d436ccf41f4cee493f339a01802a67ee6/QT_based%20Application/MainScreen.png)
 # The demo video with the application 
