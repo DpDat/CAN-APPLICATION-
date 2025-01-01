@@ -94,5 +94,6 @@ pulseview
 # Similarly, all the hardware tools for the project are listed in the 'Hardware' folder, and the connections for the devices are illustrated in the 'Wiring Diagram' file.
 # SCREENSHOT 
 ![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/fa43b92d436ccf41f4cee493f339a01802a67ee6/QT_based%20Application/MainScreen.png)
+![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/b23ecbcfa824c2f941e86f6554635f908b8a6ced/QT_based%20Application/MenuScreen.png)
 # The demo video with the application 
 Please download file to watch [Demo Video](https://github.com/DpDat/CAN-APPLICATION-/blob/55fc327ce3950081a9155835f016b4064b5ead0b/DemoVideo.mp4)
