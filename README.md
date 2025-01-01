@@ -1,5 +1,17 @@
 # CAN-APPLICATION-
 This application is developed using Object-Oriented Programming in C++, and it is a Qt-based product that enables users to interact with the CAN (Controller Area Network) data in vehicles.
+# SCREENSHOT 
+Main Screen: 
+![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/fa43b92d436ccf41f4cee493f339a01802a67ee6/QT_based%20Application/MainScreen.png)
+Menu Interface:
+![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/b23ecbcfa824c2f941e86f6554635f908b8a6ced/QT_based%20Application/MenuScreen.png)
+Implementing Monitor (Retrieve CAN đata) function with Mazda CX5 Vehicle: 
+![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/d7e7e49adeaf5ddec111fc502c027ac9df09e452/QT_based%20Application/MonitorFunction.jpg)
+Implementing Decode (convert some raw data into physical values) function with Mazda CX5 Vehicle: 
+![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/d7e7e49adeaf5ddec111fc502c027ac9df09e452/QT_based%20Application/DecodeFunction.jpg)
+Implementing OBD2 Request (Sending single frames base on standard OBD2 protocol to request specific information) function with Mazda CX5 Vehicle: 
+![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/d7e7e49adeaf5ddec111fc502c027ac9df09e452/QT_based%20Application/OBD2_Request_Function.jpg)
+
 # Necessary software tool to run the code for project
 All the necessary software tools are listed in the 'Software Tools' folder. Below are images illustrating how to use the software in the project: 
 ![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/9a851d4b6a66133c7d4ebc05d341faea59e56183/Software%20Tools/folders%20in%20QT%20creator%20tool%20.jpg)
@@ -92,16 +104,6 @@ pulseview
 3. Select your device and start capturing signals.
 
 # Similarly, all the hardware tools for the project are listed in the 'Hardware' folder, and the connections for the devices are illustrated in the 'Wiring Diagram' file.
-# SCREENSHOT 
-Main Screen: 
-![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/fa43b92d436ccf41f4cee493f339a01802a67ee6/QT_based%20Application/MainScreen.png)
-Menu Interface:
-![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/b23ecbcfa824c2f941e86f6554635f908b8a6ced/QT_based%20Application/MenuScreen.png)
-Implementing Monitor (Retrieve CAN đata) function with Mazda CX5 Vehicle: 
-
-Implementing Decode (convert some raw data into physical values) function with Mazda CX5 Vehicle: 
-
-Implementing OBD2 Request (Sending single frames base on standard OBD2 protocol to request specific information) function with Mazda CX5 Vehicle: 
 
 # The demo video with the application 
 Please download file to watch [Demo Video](https://github.com/DpDat/CAN-APPLICATION-/blob/55fc327ce3950081a9155835f016b4064b5ead0b/DemoVideo.mp4)
