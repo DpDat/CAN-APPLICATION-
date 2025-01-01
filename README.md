@@ -14,8 +14,11 @@ Implementing OBD2 Request (Sending single frames base on standard OBD2 protocol 
 
 # Necessary software tool to run the code for project
 All the necessary software tools are listed in the 'Software Tools' folder. Below are images illustrating how to use the software in the project: 
+For QT creator tool:
 ![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/9a851d4b6a66133c7d4ebc05d341faea59e56183/Software%20Tools/folders%20in%20QT%20creator%20tool%20.jpg)
-![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/c326b7bb7fe173f164b3db9c99179840d7297c3d/Software%20Tools/S32K144%20Configurration.png)\
+For S32 Design Studio: 
+![image alt](https://github.com/DpDat/CAN-APPLICATION-/blob/c326b7bb7fe173f164b3db9c99179840d7297c3d/Software%20Tools/S32K144%20Configurration.png)
+
 # How to install software tools on the Debian operating system for Raspberry Pi 4 Model B
 For QT creator:
 
